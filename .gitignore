@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Dependencies (none required for this static site, but just in case)
+node_modules/
+package-lock.json
+
+# Netlify
+.netlify/
+
+# Env / secrets — never commit ESP keys
+.env
+.env.*

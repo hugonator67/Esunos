@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- data-ref MT001 -->
+  <title>ESUNOS — The Guide to Infrastructure</title>
+  <!-- data-ref MT002 -->
+  <meta name="description" content="A newsletter about the built world's loud, load-bearing beauty — the substations, spans and server halls that would rather be noticed than hidden. Free, one issue a fortnight.">
+
+  <link rel="canonical" href="https://esunos.com/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#f26b1c">
+
+  <!-- Open Graph / social share (audit item 9) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ESUNOS">
+  <meta property="og:title" content="ESUNOS — The Guide to Infrastructure">
+  <meta property="og:description" content="Infrastructure, styled to be seen. A fortnightly field guide to the built world.">
+  <meta property="og:url" content="https://esunos.com/">
+  <meta property="og:image" content="https://esunos.com/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ESUNOS — The Guide to Infrastructure">
+  <meta name="twitter:description" content="Infrastructure, styled to be seen. A fortnightly field guide to the built world.">
+  <meta name="twitter:image" content="https://esunos.com/assets/og-image.png">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Structured data (audit item 9) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ESUNOS",
+    "url": "https://esunos.com/",
+    "description": "A network of newsletters. The first is The ESUNOS Guide to Infrastructure.",
+    "logo": "https://esunos.com/assets/og-image.png"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===================== UTILITY BAR ===================== -->
+  <div class="utilitybar">
+    <div class="wrap">
+      <!-- data-ref UB001 -->
+      <span data-ref="UB001">ESUNOS · A Network of Newsletters</span>
+      <!-- data-ref UB002 -->
+      <span class="utilitybar__issue" data-ref="UB002">Issue 01 — September 2026</span>
+    </div>
+  </div>
+
+  <!-- ===================== MASTHEAD / NAV ===================== -->
+  <header class="masthead">
+    <div class="wrap">
+      <a class="logo-link" href="/" aria-label="ESUNOS home">
+        <!-- data-ref NV001 (brand logo) -->
+        <img class="logo" src="assets/logo.png" alt="ESUNOS" width="297" height="172" data-ref="NV001">
+      </a>
+      <nav class="mainnav" aria-label="Primary">
+        <div class="mainnav__links">
+          <!-- data-ref NV002 --><a class="navlink" href="#featured" data-ref="NV002">Issues</a>
+          <!-- data-ref NV003 --><a class="navlink" href="#dispatches" data-ref="NV003">Archive</a>
+          <!-- data-ref NV004 --><a class="navlink" href="#network" data-ref="NV004">About</a>
+        </div>
+        <!-- data-ref NV005 -->
+        <a class="btn btn--orange" href="#subscribe" data-ref="NV005">Subscribe</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <!-- data-ref HE001 -->
+        <p class="eyebrow hero__eyebrow" data-ref="HE001">The ESUNOS Guide to Infrastructure</p>
+        <!-- data-ref HE002 -->
+        <h1 class="hero__title" id="hero-title" data-ref="HE002">Infrastructure, styled to be seen.</h1>
+        <!-- data-ref HE003 -->
+        <p class="hero__deck" data-ref="HE003">A newsletter about the built world's loud, load-bearing beauty — the substations, spans and server halls that would rather be noticed than hidden.</p>
+
+        <!-- Subscribe form. PLACEHOLDER: not wired to an email provider.
+             Wire to Buttondown / Kit / Resend later — see README.md. -->
+        <form class="signup" data-esp="PLACEHOLDER" novalidate>
+          <div class="signup__row">
+            <label class="visually-hidden" for="hero-email">Email address</label>
+            <!-- data-ref HE004 (input placeholder text) -->
+            <input class="signup__input" id="hero-email" name="email" type="email"
+                   inputmode="email" autocomplete="email" required
+                   placeholder="you@example.com" data-ref="HE004"
+                   aria-describedby="hero-note">
+            <!-- data-ref HE005 -->
+            <button class="btn btn--orange" type="submit" data-ref="HE005">Get the next issue</button>
+          </div>
+          <!-- data-ref HE006 -->
+          <p class="signup__note" id="hero-note" data-ref="HE006">Free. One issue a fortnight. Unsubscribe whenever.</p>
+          <p class="signup__success" role="status" aria-live="polite">Thanks — check your inbox to confirm your subscription.</p>
+        </form>
+      </div>
+    </section>
+
+    <hr class="section-rule">
+
+    <!-- ===================== FEATURED ISSUE ===================== -->
+    <section class="featured" id="featured" aria-labelledby="featured-headline">
+      <div class="wrap featured__grid">
+        <div class="featured__main">
+          <!-- data-ref FE001 -->
+          <p class="label featured__label" data-ref="FE001">Featured — Issue 01</p>
+          <figure class="figure">
+            <!-- Replace with real photograph; see README.md -->
+            <!-- data-ref FE002 -->
+            <figcaption class="figure__caption" data-ref="FE002">[ Photograph: the Battersea substation at dusk ]</figcaption>
+          </figure>
+          <!-- data-ref FE003 -->
+          <h2 class="featured__headline" id="featured-headline" data-ref="FE003">Why the substation became a landmark</h2>
+          <!-- data-ref FE004 -->
+          <p class="featured__body" data-ref="FE004">Power infrastructure spent a century apologising for itself behind fences and hedges. A new generation of engineers is doing the opposite — turning the grid's ugliest boxes into the thing you photograph. We visit three that got it right.</p>
+          <div class="featured__foot">
+            <!-- data-ref FE005 -->
+            <a class="btn btn--ink" href="#featured" data-ref="FE005">Read the issue</a>
+            <!-- data-ref FE006 -->
+            <span class="featured__byline" data-ref="FE006">by Hugo Sale · 11 min read</span>
+          </div>
+        </div>
+
+        <aside class="featured__rail" aria-labelledby="rail-heading">
+          <!-- data-ref II001 -->
+          <h3 class="label rail__heading" id="rail-heading" data-ref="II001">In this issue</h3>
+          <ol class="rail__list">
+            <li class="rail__item"><span class="rail__num" aria-hidden="true">01</span><!-- data-ref II002 --><span class="rail__title" data-ref="II002">The substation that wanted to be a landmark</span></li>
+            <li class="rail__item"><span class="rail__num" aria-hidden="true">02</span><!-- data-ref II003 --><span class="rail__title" data-ref="II003">Field notes: the honest pipe</span></li>
+            <li class="rail__item"><span class="rail__num" aria-hidden="true">03</span><!-- data-ref II004 --><span class="rail__title" data-ref="II004">Five bridges that show their working</span></li>
+            <li class="rail__item"><span class="rail__num" aria-hidden="true">04</span><!-- data-ref II005 --><span class="rail__title" data-ref="II005">The server hall as cathedral</span></li>
+            <li class="rail__item"><span class="rail__num" aria-hidden="true">05</span><!-- data-ref II006 --><span class="rail__title" data-ref="II006">Reader mailbag: your loudest local build</span></li>
+          </ol>
+
+          <div class="statbox">
+            <!-- data-ref SB001 -->
+            <p class="statbox__label" data-ref="SB001">The number</p>
+            <!-- data-ref SB002 -->
+            <p class="statbox__number" data-ref="SB002">4,300</p>
+            <!-- data-ref SB003 -->
+            <p class="statbox__caption" data-ref="SB003">substations in Greater London. We have opinions about roughly nine of them.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <hr class="section-rule">
+
+    <!-- ===================== RECENT DISPATCHES ===================== -->
+    <section class="dispatches" id="dispatches" aria-labelledby="dispatches-title">
+      <div class="wrap">
+        <div class="dispatches__head">
+          <!-- data-ref RD001 -->
+          <h2 class="dispatches__title" id="dispatches-title" data-ref="RD001">Recent dispatches</h2>
+          <!-- data-ref RD002 -->
+          <a class="dispatches__more" href="#dispatches" data-ref="RD002">Browse the archive →</a>
+        </div>
+
+        <div class="dispatch-grid">
+          <article class="dispatch">
+            <!-- data-ref RD010 --><p class="eyebrow dispatch__kicker is-orange" data-ref="RD010">Grid</p>
+            <!-- data-ref RD011 --><h3 class="dispatch__title" data-ref="RD011"><a href="#dispatches">The pylon that got a paint job and a fan club</a></h3>
+            <!-- data-ref RD012 --><p class="dispatch__meta" data-ref="RD012">Aug 24 · 6 min</p>
+          </article>
+          <article class="dispatch">
+            <!-- data-ref RD020 --><p class="eyebrow dispatch__kicker is-blue" data-ref="RD020">Water</p>
+            <!-- data-ref RD021 --><h3 class="dispatch__title" data-ref="RD021"><a href="#dispatches">In defence of the visible drainpipe</a></h3>
+            <!-- data-ref RD022 --><p class="dispatch__meta" data-ref="RD022">Aug 10 · 7 min</p>
+          </article>
+          <article class="dispatch">
+            <!-- data-ref RD030 --><p class="eyebrow dispatch__kicker is-blue" data-ref="RD030">Transit</p>
+            <!-- data-ref RD031 --><h3 class="dispatch__title" data-ref="RD031"><a href="#dispatches">A ventilation shaft with a sense of occasion</a></h3>
+            <!-- data-ref RD032 --><p class="dispatch__meta" data-ref="RD032">Jul 27 · 9 min</p>
+          </article>
+          <article class="dispatch">
+            <!-- data-ref RD040 --><p class="eyebrow dispatch__kicker is-orange" data-ref="RD040">Data</p>
+            <!-- data-ref RD041 --><h3 class="dispatch__title" data-ref="RD041"><a href="#dispatches">Server halls are the new industrial sublime</a></h3>
+            <!-- data-ref RD042 --><p class="dispatch__meta" data-ref="RD042">Jul 13 · 8 min</p>
+          </article>
+          <article class="dispatch">
+            <!-- data-ref RD050 --><p class="eyebrow dispatch__kicker is-blue" data-ref="RD050">Roads</p>
+            <!-- data-ref RD051 --><h3 class="dispatch__title" data-ref="RD051"><a href="#dispatches">The gantry as public sculpture</a></h3>
+            <!-- data-ref RD052 --><p class="dispatch__meta" data-ref="RD052">Jun 29 · 5 min</p>
+          </article>
+          <article class="dispatch">
+            <!-- data-ref RD060 --><p class="eyebrow dispatch__kicker is-orange" data-ref="RD060">Field notes</p>
+            <!-- data-ref RD061 --><h3 class="dispatch__title" data-ref="RD061"><a href="#dispatches">Reading a city by its manhole covers</a></h3>
+            <!-- data-ref RD062 --><p class="dispatch__meta" data-ref="RD062">Jun 15 · 6 min</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NETWORK BAND ===================== -->
+    <section class="network" id="network" aria-labelledby="network-heading">
+      <div class="wrap">
+        <!-- data-ref NW001 -->
+        <p class="label network__label" data-ref="NW001">ESUNOS is a network</p>
+        <!-- data-ref NW002 -->
+        <h2 class="network__heading" id="network-heading" data-ref="NW002">One masthead, many guides. Infrastructure is the first — more are in the works.</h2>
+
+        <div class="guide-grid">
+          <article class="guide guide--live">
+            <div class="guide__status">
+              <!-- data-ref NW010 --><span class="eyebrow" data-ref="NW010">Live now</span>
+              <span class="guide__dot" aria-hidden="true"></span>
+            </div>
+            <!-- data-ref NW011 --><h3 class="guide__title" data-ref="NW011">The Guide to Infrastructure</h3>
+            <!-- data-ref NW012 --><p class="guide__desc" data-ref="NW012">The built world, at full volume.</p>
+          </article>
+          <article class="guide guide--coming">
+            <div class="guide__status">
+              <!-- data-ref NW020 --><span class="eyebrow" data-ref="NW020">Coming soon</span>
+            </div>
+            <!-- data-ref NW021 (placeholder title) --><h3 class="guide__title" data-ref="NW021">The Guide to [ NW021 ]</h3>
+            <!-- data-ref NW022 --><p class="guide__desc" data-ref="NW022">Your next title goes here.</p>
+          </article>
+          <article class="guide guide--coming">
+            <div class="guide__status">
+              <!-- data-ref NW030 --><span class="eyebrow" data-ref="NW030">Coming soon</span>
+            </div>
+            <!-- data-ref NW031 (placeholder title) --><h3 class="guide__title" data-ref="NW031">The Guide to [ NW031 ]</h3>
+            <!-- data-ref NW032 --><p class="guide__desc" data-ref="NW032">Pitch us at hello@esunos.com.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CLOSING SUBSCRIBE BAND ===================== -->
+    <!-- Added per audit item 3 (repeat the form). Not in the original sketch. -->
+    <section class="closing" id="subscribe" aria-labelledby="closing-heading">
+      <div class="wrap closing__grid">
+        <div>
+          <!-- data-ref CS001 -->
+          <p class="eyebrow closing__eyebrow" data-ref="CS001">Subscribe</p>
+          <!-- data-ref CS002 -->
+          <h2 class="closing__heading" id="closing-heading" data-ref="CS002">Get the next issue of the Guide to Infrastructure.</h2>
+        </div>
+        <form class="signup" data-esp="PLACEHOLDER" novalidate>
+          <div class="signup__row">
+            <label class="visually-hidden" for="closing-email">Email address</label>
+            <!-- data-ref CS003 -->
+            <input class="signup__input" id="closing-email" name="email" type="email"
+                   inputmode="email" autocomplete="email" required
+                   placeholder="you@example.com" data-ref="CS003"
+                   aria-describedby="closing-note">
+            <!-- data-ref CS004 -->
+            <button class="btn btn--orange" type="submit" data-ref="CS004">Get the next issue</button>
+          </div>
+          <!-- data-ref CS005 -->
+          <p class="signup__note" id="closing-note" data-ref="CS005">Free. One issue a fortnight. Unsubscribe whenever.</p>
+          <p class="signup__success" role="status" aria-live="polite">Thanks — check your inbox to confirm your subscription.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="sitefooter">
+    <div class="wrap">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img class="logo logo--footer" src="assets/logo-light.png" alt="ESUNOS" width="297" height="172">
+          <!-- data-ref FT001 -->
+          <p class="footer__tagline" data-ref="FT001">Infrastructure, styled to be seen. A fortnightly field guide to the built world.</p>
+        </div>
+        <div class="footer__cols">
+          <div>
+            <!-- data-ref FT002 -->
+            <p class="footer__colhead" data-ref="FT002">Read</p>
+            <ul class="footer__links">
+              <!-- data-ref FT003 --><li><a href="#featured" data-ref="FT003">Latest issue</a></li>
+              <!-- data-ref FT004 --><li><a href="#dispatches" data-ref="FT004">Archive</a></li>
+              <!-- data-ref FT005 --><li><a href="#network" data-ref="FT005">The network</a></li>
+            </ul>
+          </div>
+          <div>
+            <!-- data-ref FT006 -->
+            <p class="footer__colhead" data-ref="FT006">Elsewhere</p>
+            <ul class="footer__links">
+              <!-- data-ref FT007 --><li><a href="#subscribe" data-ref="FT007">Newsletter</a></li>
+              <!-- data-ref FT008 --><li><a href="#network" data-ref="FT008">Instagram</a></li>
+              <!-- data-ref FT009 --><li><a href="#network" data-ref="FT009">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <!-- data-ref FT010 -->
+        <span data-ref="FT010">© 2026 ESUNOS</span>
+        <!-- data-ref FT011 -->
+        <span data-ref="FT011">esunos.com</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/subscribe.js" defer></script>
+</body>
+</html>
