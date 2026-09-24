@@ -59,7 +59,6 @@
       <nav class="mainnav" aria-label="Primary">
         <div class="mainnav__links">
           <!-- data-ref HD004 --><a class="navlink" href="index.html" data-ref="HD004">Home</a>
-          <!-- data-ref HD005 --><a class="navlink" href="index.html#featured" data-ref="HD005">Issues</a>
           <!-- data-ref HD006 --><a class="navlink" href="index.html#dispatches" data-ref="HD006">Archive</a>
           <!-- data-ref HD007 --><a class="navlink" href="index.html#network" data-ref="HD007">About</a>
         </div>
@@ -164,57 +163,6 @@
         <p data-ref="AB006">None of it is complicated. That is rather the point. The technology of caring what infrastructure looks like is a century old; what was missing was permission. This issue is an argument that the permission is overdue.</p>
       </div>
 
-      <!-- ===================== REACTIONS (live, shared counts) ===================== -->
-      <!-- Counts are stored per-issue via the Netlify Function + Blobs backend
-           (netlify/functions/reactions.mjs) and rendered by js/reactions.js.
-           The numbers below are only a fallback shown if the backend is
-           unreachable; the live values come from the server. -->
-      <section class="reactions read" aria-labelledby="reactions-title" data-issue="issue-01">
-        <div class="reactions__head">
-          <div>
-            <!-- data-ref RX001 -->
-            <p class="eyebrow reactions__eyebrow" data-ref="RX001">Join in</p>
-            <!-- data-ref RX002 -->
-            <h2 class="reactions__title" id="reactions-title" data-ref="RX002">What did you think?</h2>
-          </div>
-          <!-- data-ref RX003 (text is replaced live with the real reader count) -->
-          <span class="reactions__count" data-ref="RX003" data-readers>3,375 readers reacted</span>
-        </div>
-
-        <div class="reactions__grid">
-          <button type="button" class="globalcount" data-key="likes" aria-pressed="false" aria-label="Like this issue">
-            <!-- data-ref RX004 -->
-            <span class="globalcount__label" data-ref="RX004">The global count</span>
-            <!-- data-ref RX005 (live number) -->
-            <span class="globalcount__num" data-count="likes" data-ref="RX005">1,284</span>
-            <!-- data-ref RX006 -->
-            <span class="globalcount__unit" data-ref="RX006">👍 Likes</span>
-          </button>
-          <div>
-            <!-- data-ref RX007 -->
-            <p class="reaction-tiles__label" data-ref="RX007">Share your opinion — tap all that fit</p>
-            <div class="reaction-tiles">
-              <button type="button" class="rtile" data-key="fire" aria-pressed="false"><span class="rtile__fill" data-fill="fire" style="width:100%"></span><!-- data-ref RX010 --><span class="rtile__label" data-ref="RX010">🔥 Fire</span><span class="rtile__num" data-count="fire" data-ref="RX011">842</span></button>
-              <button type="button" class="rtile" data-key="beautiful" aria-pressed="false"><span class="rtile__fill" data-fill="beautiful" style="width:87%"></span><!-- data-ref RX020 --><span class="rtile__label" data-ref="RX020">😍 Beautiful</span><span class="rtile__num" data-count="beautiful" data-ref="RX021">733</span></button>
-              <button type="button" class="rtile" data-key="bravo" aria-pressed="false"><span class="rtile__fill" data-fill="bravo" style="width:72%"></span><!-- data-ref RX030 --><span class="rtile__label" data-ref="RX030">👏 Bravo</span><span class="rtile__num" data-count="bravo" data-ref="RX031">604</span></button>
-              <button type="button" class="rtile" data-key="mind_blown" aria-pressed="false"><span class="rtile__fill" data-fill="mind_blown" style="width:61%"></span><!-- data-ref RX040 --><span class="rtile__label" data-ref="RX040">🤯 Mind blown</span><span class="rtile__num" data-count="mind_blown" data-ref="RX041">511</span></button>
-              <button type="button" class="rtile" data-key="made_me_think" aria-pressed="false"><span class="rtile__fill" data-fill="made_me_think" style="width:46%"></span><!-- data-ref RX050 --><span class="rtile__label" data-ref="RX050">🧠 Made me think</span><span class="rtile__num" data-count="made_me_think" data-ref="RX051">388</span></button>
-              <button type="button" class="rtile" data-key="electric" aria-pressed="false"><span class="rtile__fill" data-fill="electric" style="width:35%"></span><!-- data-ref RX060 --><span class="rtile__label" data-ref="RX060">⚡ Electric</span><span class="rtile__num" data-count="electric" data-ref="RX061">297</span></button>
-            </div>
-          </div>
-        </div>
-
-        <div class="reactions__share">
-          <!-- data-ref RX070 -->
-          <span class="label" data-ref="RX070">Share this issue</span>
-          <!-- data-ref RX071 --><a class="sharebtn" href="#" data-ref="RX071">Copy link</a>
-          <!-- data-ref RX072 --><a class="sharebtn" href="#" data-ref="RX072">Post</a>
-          <!-- data-ref RX073 --><a class="sharebtn" href="#" data-ref="RX073">WhatsApp</a>
-        </div>
-        <!-- data-ref RX080 -->
-        <p class="reactions__note" data-ref="RX080">The orange fill in each shows how it's tracking against the top reaction — the running tally.</p>
-      </section>
-
       <div class="read article__back">
         <a href="index.html#dispatches">← All issues</a>
       </div>
@@ -264,7 +212,6 @@
             <ul class="footer__links">
               <!-- data-ref FO003 --><li><a href="issue-01.html" data-ref="FO003">Latest issue</a></li>
               <!-- data-ref FO004 --><li><a href="index.html#dispatches" data-ref="FO004">Archive</a></li>
-              <!-- data-ref FO005 --><li><a href="index.html#network" data-ref="FO005">The network</a></li>
             </ul>
           </div>
           <div>
@@ -288,6 +235,5 @@
   </footer>
 
   <script src="subscribe.js" defer></script>
-  <script src="reactions.js" defer></script>
 </body>
 </html>

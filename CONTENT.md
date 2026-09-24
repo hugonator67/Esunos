@@ -34,7 +34,6 @@ grep -n 'data-ref="DP011"' index.html
 | Code | Current text | Source |
 |------|--------------|--------|
 | NV001 | ESUNOS *(logo image — assets/logo.png)* | supplied logo |
-| NV002 | Issues *(→ #featured)* | sketch |
 | NV003 | Archive *(→ #dispatches)* | sketch |
 | NV004 | About *(→ #network)* | sketch |
 | NV005 | Subscribe *(→ #subscribe)* | sketch |
@@ -131,7 +130,6 @@ grep -n 'data-ref="DP011"' index.html
 | FT002 | Read *(column heading)* | sketch |
 | FT003 | Latest issue | sketch |
 | FT004 | Archive | sketch |
-| FT005 | The network | sketch |
 | FT006 | Elsewhere *(column heading)* | sketch |
 | FT007 | Newsletter | sketch |
 | FT008 | Instagram | sketch |
