@@ -25,7 +25,9 @@ Every design and content decision traces to a reference — nothing was invented
 
 ```
 esunos-site/
-├── index.html          # the page (semantic HTML; every text box has a data-ref code)
+├── index.html          # landing page (semantic HTML; every text box has a positional data-ref code)
+├── issue-01.html       # first issue
+├── about.html          # about page
 ├── css/styles.css      # design system + layout (all tokens in :root)
 ├── js/subscribe.js     # signup form handler — PLACEHOLDER, not wired to a provider
 ├── assets/
@@ -36,7 +38,9 @@ esunos-site/
 ├── netlify.toml         # publish root + security/caching headers
 ├── robots.txt
 ├── sitemap.xml
-├── CONTENT.md           # code → text map for editing copy later
+├── CONTENT.md           # explains the [X0000] text-code system
+├── CODES.xlsx / .csv    # tracker: every code → current text, with a blank "New text" column
+├── inactive/            # parked markup (e.g. network-band.txt) removed from live pages
 └── README.md
 ```
 
@@ -80,15 +84,18 @@ There are **two** forms (hero + closing band); both share the handler.
 
 ## Editing the copy
 
-All wording is **draft**. Each text box has a stable reference code in a
-`data-ref` attribute. See **`CONTENT.md`** for the full code → text map. To change
-something, reference its code (e.g. "update NW021") — find it with:
+All wording is **draft**. Each text box has a **positional code** in a `data-ref`
+attribute, in the format `[X0000]` — page letter (`L`anding / `I`ssue / `A`rchive /
+`O`about) + across-coordinate + down-coordinate. See **`CONTENT.md`** for the full
+explanation, and **`CODES.xlsx` / `CODES.csv`** for the live code → text tracker
+(with a blank “New text” column to fill). To change something, reference its code
+(e.g. "`[L0608]` → *new headline*") — find it with:
 
 ```bash
-grep -n 'data-ref="NW021"' index.html
+grep -n "L0608" index.html
 ```
 
-Placeholder titles render their own code on purpose, e.g. `The Guide to [ NW021 ]`.
+Logos and buttons/CTAs are intentionally left uncoded.
 
 ## Brand tokens (in `css/styles.css` `:root`)
 
@@ -96,7 +103,7 @@ Placeholder titles render their own code on purpose, e.g. `The Guide to [ NW021 
 |-------|-------|-----|
 | `--ink` | `#1a1a1a` | text, utility bar, footer |
 | `--paper` | `#ffffff` | main background |
-| `--paper-warm` | `#f9f8f4` | the network band |
+| `--paper-warm` | `#f9f8f4` | warm section bands |
 | `--orange` | `#f26b1c` | **brand** — logo dot + CTA button fills (with ink text) |
 | `--orange-deep` | `#b8560d` | orange **text** on light backgrounds (accessibility, see below) |
 | `--blue` | `#191ed0` | secondary accent, used sparingly |
@@ -124,9 +131,10 @@ lower contrast, set `--orange-deep: #f26b1c;` in `css/styles.css` — one line.
 - **Signup provider** — not wired (see above).
 - **Images** — the featured photo is a captioned placeholder box; supply real art.
 - **`assets/og-image.png`** — auto-generated placeholder; swap for final artwork.
-- **Coming-soon guides** — `NW021` / `NW031` titles are placeholders.
-- **Nav / footer links** — currently on-page anchors; repoint to real Issues,
-  Archive, About and social URLs when those exist.
+- **About copy** — the About page wording is draft; edit via its `O####` codes.
+- **Network band** — removed for now; full markup parked in `inactive/network-band.txt`.
+- **Footer social links** — Instagram / Contact currently point to the About page;
+  repoint to real social URLs when those exist.
 
 The header/footer use **your supplied logo** (`assets/logo.png` / `logo-light.png`),
 cropped from the original with the sun-disc recoloured from `#ff741f` to the site

@@ -1,0 +1,90 @@
+========================================================================
+INACTIVE — NETWORK BAND (removed from index.html on 2026-09-25)
+========================================================================
+Removed "for the meantime" at Hugo's request. This is the full, working
+markup exactly as it sat in index.html, plus its CSS, so it can be pasted
+straight back in later.
+
+TO RESTORE:
+  1. Paste the HTML block below back into index.html, immediately after
+     the "RECENT DISPATCHES" </section> (before the CLOSING SUBSCRIBE band).
+  2. The CSS below is STILL PRESENT in styles.css (under "Network band")
+     and was left in place — no CSS change needed to restore.
+  3. Re-point the "About" nav link (and any footer links) back to #network
+     if they were changed to point elsewhere.
+
+Note: the section id is "network", which the "About" nav link used to
+target (href="#network").
+========================================================================
+
+
+---------------------------- HTML (index.html) -------------------------
+
+    <!-- ===================== NETWORK BAND ===================== -->
+    <section class="network" id="network" aria-labelledby="network-heading">
+      <div class="wrap">
+        <!-- data-ref NW001 -->
+        <p class="label network__label" data-ref="NW001">ESUNOS is a network</p>
+        <!-- data-ref NW002 -->
+        <h2 class="network__heading" id="network-heading" data-ref="NW002">One masthead, many guides. Infrastructure is the first — more are in the works.</h2>
+
+        <div class="guide-grid">
+          <article class="guide guide--live">
+            <div class="guide__status">
+              <!-- data-ref NW010 --><span class="eyebrow" data-ref="NW010">Live now</span>
+              <span class="guide__dot" aria-hidden="true"></span>
+            </div>
+            <!-- data-ref NW011 --><h3 class="guide__title" data-ref="NW011">The Guide to Infrastructure</h3>
+            <!-- data-ref NW012 --><p class="guide__desc" data-ref="NW012">The built world, at full volume.</p>
+          </article>
+          <article class="guide guide--coming">
+            <div class="guide__status">
+              <!-- data-ref NW020 --><span class="eyebrow" data-ref="NW020">Coming soon</span>
+            </div>
+            <!-- data-ref NW021 (placeholder title) --><h3 class="guide__title" data-ref="NW021">The Guide to [ NW021 ]</h3>
+            <!-- data-ref NW022 --><p class="guide__desc" data-ref="NW022">Your next title goes here.</p>
+          </article>
+          <article class="guide guide--coming">
+            <div class="guide__status">
+              <!-- data-ref NW030 --><span class="eyebrow" data-ref="NW030">Coming soon</span>
+            </div>
+            <!-- data-ref NW031 (placeholder title) --><h3 class="guide__title" data-ref="NW031">The Guide to [ NW031 ]</h3>
+            <!-- data-ref NW032 --><p class="guide__desc" data-ref="NW032">Pitch us at hello@esunos.com.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+---------------------------- CSS (styles.css) --------------------------
+(left in place in styles.css; included here for completeness)
+
+/* ---- Network band ----------------------------------------- */
+.network { background: var(--paper-warm); }
+.network__label { color: var(--meta); margin-bottom: 1rem; }
+.network__heading {
+  font-weight: 700; font-size: clamp(1.7rem, 3.2vw, 2.4rem);
+  line-height: 1.1; max-width: 22ch; margin-bottom: 2.4rem;
+}
+.guide-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(1rem, 2.5vw, 1.6rem); }
+.guide {
+  background: var(--paper);
+  border: 1px solid var(--hairline);
+  padding: 1.4rem 1.5rem 1.6rem;
+  min-height: 8.5rem;
+}
+.guide--live { border-color: var(--ink); }
+.guide__status {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: .5rem; margin-bottom: 1rem;
+}
+.guide__status .eyebrow { color: var(--meta); }
+.guide--live .guide__status .eyebrow { color: var(--orange-deep); }
+.guide__dot { width: .6rem; height: .6rem; border-radius: 50%; background: var(--orange); }
+.guide__title { font-weight: 700; font-size: 1.4rem; line-height: 1.1; margin-bottom: .5rem; }
+.guide--coming .guide__title { color: var(--meta); }
+.guide__desc { font-size: .98rem; color: var(--meta); }
+
+CONTENT.md reference codes for this band: NW001, NW002, NW010, NW011,
+NW012, NW020, NW021, NW022, NW030, NW031, NW032.
+========================================================================

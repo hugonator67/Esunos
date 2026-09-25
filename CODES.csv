@@ -1,0 +1,149 @@
+﻿Code,Page,Across,Down,Element,Type,Current text,New text,Old code
+[L0000],Landing,0,0,title,Title (SEO),ESUNOS — The Guide to Infrastructure,,MT001
+[L0600],Landing,6,0,span,Text,ESUNOS · A Network of Newsletters,,UB001
+[L7800],Landing,78,0,span,Text,Issue 01 — September 2026,,UB002
+[L0001],Landing,0,1,meta,Meta description,"A newsletter about the built world's loud, load-bearing beauty — the substations, spans and server halls that would rather be noticed than hidden. Free, one issue a fortnight.",,MT002
+[L6802],Landing,68,2,a,Link,Archive,,NV003
+[L7602],Landing,76,2,a,Link,About,,NV004
+[L0607],Landing,6,7,p,Body / paragraph,The ESUNOS Guide to Infrastructure,,HE001
+[L0608],Landing,6,8,h1,Page title,"Infrastructure, styled to be seen.",,HE002
+[L0614],Landing,6,14,p,Body / paragraph,"A newsletter about the built world's loud, load-bearing beauty — the substations, spans and server halls that would rather be noticed than hidden.",,HE003
+[L0619],Landing,6,19,input,Input placeholder,you@example.com,,HE004
+[L0621],Landing,6,21,p,Body / paragraph,Free. One issue a fortnight. Unsubscribe whenever.,,HE006
+[L0628],Landing,6,28,p,Body / paragraph,Featured — Issue 01,,FE001
+[L6328],Landing,63,28,h3,Subheading,In this issue,,II001
+[L6629],Landing,66,29,span,Text,The substation that wanted to be a landmark,,II002
+[L6631],Landing,66,31,span,Text,Field notes: the honest pipe,,II003
+[L6633],Landing,66,33,span,Text,Five bridges that show their working,,II004
+[L6635],Landing,66,35,span,Text,The server hall as cathedral,,II005
+[L6636],Landing,66,36,span,Text,Reader mailbag: your loudest local build,,II006
+[L6539],Landing,65,39,p,Body / paragraph,The number,,SB001
+[L6540],Landing,65,40,p,Body / paragraph,"4,300",,SB002
+[L0842],Landing,8,42,figcaption,Caption,[ Photograph: the Battersea substation at dusk ],,FE002
+[L6542],Landing,65,42,p,Body / paragraph,substations in Greater London. We have opinions about roughly nine of them.,,SB003
+[L0644],Landing,6,44,h2,Heading,Why the substation became a landmark,,FE003
+[L0647],Landing,6,47,p,Body / paragraph,Power infrastructure spent a century apologising for itself behind fences and hedges. A new generation of engineers is doing the opposite — turning the grid's ugliest boxes into the thing you photograph. We visit three that got it right.,,FE004
+[L2152],Landing,21,52,span,Text,by Hugo Sale · 11 min read,,FE006
+[L0660],Landing,6,60,h2,Heading,Recent dispatches,,RD001
+[L7861],Landing,78,61,a,Link,Browse the archive →,,RD002
+[L0664],Landing,6,64,p,Body / paragraph,Grid,,RD010
+[L3664],Landing,36,64,p,Body / paragraph,Water,,RD020
+[L6664],Landing,66,64,p,Body / paragraph,Transit,,RD030
+[L0665],Landing,6,65,h3,Subheading,The pylon that got a paint job and a fan club,,RD011
+[L3665],Landing,36,65,h3,Subheading,In defence of the visible drainpipe,,RD021
+[L6665],Landing,66,65,h3,Subheading,A ventilation shaft with a sense of occasion,,RD031
+[L3666],Landing,36,66,p,Body / paragraph,Aug 10 · 7 min,,RD022
+[L0667],Landing,6,67,p,Body / paragraph,Aug 24 · 6 min,,RD012
+[L6667],Landing,66,67,p,Body / paragraph,Jul 27 · 9 min,,RD032
+[L0670],Landing,6,70,p,Body / paragraph,Data,,RD040
+[L3670],Landing,36,70,p,Body / paragraph,Roads,,RD050
+[L6670],Landing,66,70,p,Body / paragraph,Field notes,,RD060
+[L0671],Landing,6,71,h3,Subheading,Server halls are the new industrial sublime,,RD041
+[L3671],Landing,36,71,h3,Subheading,The gantry as public sculpture,,RD051
+[L6671],Landing,66,71,h3,Subheading,Reading a city by its manhole covers,,RD061
+[L3672],Landing,36,72,p,Body / paragraph,Jun 29 · 5 min,,RD052
+[L6672],Landing,66,72,p,Body / paragraph,Jun 15 · 6 min,,RD062
+[L0673],Landing,6,73,p,Body / paragraph,Jul 13 · 8 min,,RD042
+[L0679],Landing,6,79,p,Body / paragraph,Subscribe,,CS001
+[L0680],Landing,6,80,h2,Heading,Get the next issue of the Guide to Infrastructure.,,CS002
+[L5380],Landing,53,80,input,Input placeholder,you@example.com,,CS003
+[L5383],Landing,53,83,p,Body / paragraph,Free. One issue a fortnight. Unsubscribe whenever.,,CS005
+[L5690],Landing,56,90,p,Body / paragraph,Read,,FT002
+[L7690],Landing,76,90,p,Body / paragraph,Elsewhere,,FT006
+[L5691],Landing,56,91,a,Link,Latest issue,,FT003
+[L7691],Landing,76,91,a,Link,Newsletter,,FT007
+[L0692],Landing,6,92,p,Body / paragraph,"Infrastructure, styled to be seen. A fortnightly field guide to the built world.",,FT001
+[L5692],Landing,56,92,a,Link,Archive,,FT004
+[L7692],Landing,76,92,a,Link,Instagram,,FT008
+[L7693],Landing,76,93,a,Link,Contact,,FT009
+[L0696],Landing,6,96,span,Text,© 2026 ESUNOS,,FT010
+[L8696],Landing,86,96,span,Text,esunos.com,,FT011
+[I0000],Issue 01,0,0,title,Title (SEO),Why the substation became a landmark — ESUNOS Issue 01,,IM001
+[I0600],Issue 01,6,0,span,Text,The ESUNOS Guide to Infrastructure,,HD001
+[I7800],Issue 01,78,0,span,Text,Issue 01 — September 2026,,HD002
+[I0001],Issue 01,0,1,meta,Meta description,"For a century the grid hid in the hedges. Three engineers decided it should be the view instead. The ESUNOS Guide to Infrastructure, Issue 01.",,IM002
+[I6201],Issue 01,62,1,a,Link,Home,,HD004
+[I6801],Issue 01,68,1,a,Link,Archive,,HD006
+[I7601],Issue 01,76,1,a,Link,About,,HD007
+[I2504],Issue 01,25,4,span,Text,Feature 01,,AH001
+[I3404],Issue 01,34,4,span,Text,Grid · Power,,AH002
+[I2505],Issue 01,25,5,h1,Page title,Why the substation became a landmark,,AH003
+[I2508],Issue 01,25,8,p,Body / paragraph,For a century the grid hid in the hedges. Three engineers decided it should be the view instead.,,AH004
+[I2511],Issue 01,25,11,div,div,PHOTO,,PH004
+[I3011],Issue 01,30,11,div,div,Hugo Sale,,AH005
+[I3012],Issue 01,30,12,div,div,"September 21, 2026 · 11 min read",,AH006
+[I0826],Issue 01,8,26,figcaption,Caption,"[ Photograph: Battersea ""A"" substation, floodlit — full bleed ]",,PH001
+[I2528],Issue 01,25,28,p,Body / paragraph,"There is a moment, walking south from the river at dusk, when the substation stops looking like a warning and starts looking like a building. Its transformers hum behind a lattice of steel; a run of ceramic insulators catches the last of the light like a shelf of trophies. Nobody designed it to be beautiful. That, the engineers here will tell you, was the mistake worth fixing.",,AB001
+[I2532],Issue 01,25,32,p,Body / paragraph,"Infrastructure has spent most of a century apologising for itself. We buried the cables, fenced the plant, and planted fast-growing conifers in front of anything that buzzed. The result is a built world we rely on completely and refuse to look at — a landscape of shrugging grey boxes designed, above all, to be ignored.",,AB002
+[I2536],Issue 01,25,36,h2,Heading,The case for showing your working,,AB010
+[I2537],Issue 01,25,37,p,Body / paragraph,"The counter-movement is small but loud. In three sites across the south-east, engineers and architects have started treating the grid as something to be seen — painting gantries, uplighting cooling towers, cutting viewing slots into perimeter walls. The bill is trivial next to the build. The change in how people treat the thing is not.",,AB003
+[I2750],Issue 01,27,50,figcaption,Caption,"[ Photograph: uplit cooling tower, Greenwich reach ]",,PH002
+[I2552],Issue 01,25,52,p,Body / paragraph,"""A fence says keep out. A good facade says look — and people did.""",,PQ001
+[I2554],Issue 01,25,54,cite,Citation,"— Site engineer, Substation ""A""",,PQ002
+[I2556],Issue 01,25,56,p,Body / paragraph,"What surprised the operators was not the visitors — though there are now visitors — but the vandalism that stopped. A structure people find handsome is a structure people leave alone. Graffiti fell. Fly-tipping at the perimeter fell. The maintenance crews, oddly, reported taking more care too.",,AB004
+[I2559],Issue 01,25,59,h2,Heading,Three that got it right,,AB011
+[I2561],Issue 01,25,61,p,Body / paragraph,"Below, the shortlist from this issue's field trips — the full notes, drawings and a map are in the members' edition.",,AB005
+[I2963],Issue 01,29,63,span,Text,"Battersea ""A"" — floodlighting turned a maintenance liability into the neighbourhood's favourite skyline.",,LI001
+[I2965],Issue 01,29,65,span,Text,"Greenwich reach — a perimeter wall with viewing slots, so the plant reads as a colonnade.",,LI002
+[I2967],Issue 01,29,67,span,Text,"Kent interconnector — gantries painted a single confident orange, visible for miles.",,LI003
+[I2779],Issue 01,27,79,figcaption,Caption,"[ Photograph: Kent interconnector gantries, painted orange ]",,PH003
+[I2580],Issue 01,25,80,p,Body / paragraph,None of it is complicated. That is rather the point. The technology of caring what infrastructure looks like is a century old; what was missing was permission. This issue is an argument that the permission is overdue.,,AB006
+[I0686],Issue 01,6,86,p,Body / paragraph,Subscribe,,SU001
+[I0687],Issue 01,6,87,h2,Heading,Get the next issue of the Guide to Infrastructure.,,SU002
+[I5387],Issue 01,53,87,input,Input placeholder,you@example.com,,SU003
+[I5389],Issue 01,53,89,p,Body / paragraph,Free. One issue a fortnight. Unsubscribe whenever.,,SU005
+[I5693],Issue 01,56,93,p,Body / paragraph,Read,,FO002
+[I7693],Issue 01,76,93,p,Body / paragraph,Elsewhere,,FO006
+[I0694],Issue 01,6,94,p,Body / paragraph,"Infrastructure, styled to be seen. A fortnightly field guide to the built world.",,FO001
+[I5694],Issue 01,56,94,a,Link,Latest issue,,FO003
+[I7694],Issue 01,76,94,a,Link,Newsletter,,FO007
+[I5695],Issue 01,56,95,a,Link,Archive,,FO004
+[I7695],Issue 01,76,95,a,Link,Instagram,,FO008
+[I7696],Issue 01,76,96,a,Link,Contact,,FO009
+[I0697],Issue 01,6,97,span,Text,© 2026 ESUNOS,,FO010
+[I8697],Issue 01,86,97,span,Text,esunos.com,,FO011
+[O0000],About,0,0,title,Title (SEO),About — ESUNOS,,OX01
+[O0600],About,6,0,span,Text,The ESUNOS Guide to Infrastructure,,OX03
+[O7700],About,77,0,span,Text,A Network of Newsletters,,OX04
+[O0001],About,0,1,meta,Meta description,"ESUNOS is a network of newsletters about the built world — the substations, spans and server halls we rely on and refuse to notice — and the culture, history and money behind them.",,OX02
+[O6202],About,62,2,a,Link,Home,,OX05
+[O6802],About,68,2,a,Link,Archive,,OX06
+[O7602],About,76,2,a,Link,About,,OX07
+[O2507],About,25,7,p,Body / paragraph,About,,OX08
+[O2508],About,25,8,h1,Page title,Infrastructure is worth looking at on purpose.,,OX09
+[O2514],About,25,14,p,Body / paragraph,"ESUNOS is a small network of newsletters about the built world — the substations, spans and server halls we rely on and refuse to notice — and the culture, history and money behind them.",,OX10
+[O2520],About,25,20,p,Body / paragraph,"ESUNOS started as a reaction to a hundred years of hedge-planting. We bury the cables, fence the plant and screen off anything that hums — then act surprised when nobody cares for it. The Guide to Infrastructure is an argument that the opposite is more useful, and a good deal more fun: that a substation, a gantry or a server hall can be a landmark, if anyone bothers to treat it as one.",,OX11
+[O2529],About,25,29,p,Body / paragraph,"So we go and look. Every issue is a field trip — part reportage, part love letter, part quiet argument for building things people are glad to see. We care about the engineering, but just as much about the culture, the history and the money that decide what gets built and what gets buried.",,OX12
+[O2535],About,25,35,h2,Heading,What we cover,,OX13
+[O2537],About,25,37,p,Body / paragraph,"Power and the grid. Water and drainage. Transit, roads and the machinery of moving people about. Data centres and the industrial sublime of the internet. Wherever the built world is loud and load-bearing, that is our beat — reported at close range and, where it is warranted, with a straight face abandoned.",,OX14
+[O2544],About,25,44,h2,Heading,"One masthead, many guides",,OX15
+[O2546],About,25,46,p,Body / paragraph,"ESUNOS is built to be a network. The Guide to Infrastructure is the first title; others will follow, each a field guide to a corner of the world that rewards closer attention. Same masthead, same eye, a different subject each time.",,OX16
+[O2553],About,25,53,h2,Heading,Masthead,,OX17
+[O2555],About,25,55,dt,Credit label,Editor & writer,,OX18
+[O4355],About,43,55,dd,Credit value,Hugo Sale,,OX19
+[O2558],About,25,58,dt,Credit label,Published by,,OX20
+[O4358],About,43,58,dd,Credit value,ESUNOS,,OX21
+[O2560],About,25,60,dt,Credit label,First title,,OX22
+[O4360],About,43,60,dd,Credit value,The Guide to Infrastructure,,OX23
+[O4362],About,43,62,dd,Credit value,"One issue a fortnight, free",,OX25
+[O2563],About,25,63,dt,Credit label,Cadence,,OX24
+[O2565],About,25,65,dt,Credit label,Based,,OX26
+[O4365],About,43,65,dd,Credit value,"London, for a global English audience",,OX27
+[O2567],About,25,67,dt,Credit label,Contact,,OX28
+[O4367],About,43,67,dd,Credit value,hello@esunos.com,,OX29
+[O2570],About,25,70,p,Body / paragraph,"Got a loud local build, a tip, or a title you think ESUNOS should run? We read everything — write to hello@esunos.com.",,OX30
+[O0676],About,6,76,p,Body / paragraph,Subscribe,,OX31
+[O0677],About,6,77,h2,Heading,Get the next issue of the Guide to Infrastructure.,,OX32
+[O5377],About,53,77,input,Input placeholder,you@example.com,,OX33
+[O5380],About,53,80,p,Body / paragraph,Free. One issue a fortnight. Unsubscribe whenever.,,OX34
+[O5688],About,56,88,p,Body / paragraph,Read,,OX36
+[O7688],About,76,88,p,Body / paragraph,Elsewhere,,OX40
+[O5689],About,56,89,a,Link,Latest issue,,OX37
+[O7689],About,76,89,a,Link,Newsletter,,OX41
+[O0690],About,6,90,p,Body / paragraph,"Infrastructure, styled to be seen. A fortnightly field guide to the built world.",,OX35
+[O5691],About,56,91,a,Link,Archive,,OX38
+[O7691],About,76,91,a,Link,Instagram,,OX42
+[O5692],About,56,92,a,Link,About,,OX39
+[O7692],About,76,92,a,Link,Contact,,OX43
+[O0696],About,6,96,span,Text,© 2026 ESUNOS,,OX44
+[O8696],About,86,96,span,Text,esunos.com,,OX45
