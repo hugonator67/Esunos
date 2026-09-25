@@ -1,0 +1,108 @@
+========================================================================
+INACTIVE — RECENT DISPATCHES (removed from index.html on 2026-09-25)
+========================================================================
+Removed "for now" at Hugo's request. Full working markup exactly as it
+sat in index.html (positional [L####] codes intact), plus its CSS, so it
+can be pasted straight back in later.
+
+TO RESTORE:
+  1. Paste the HTML block below back into index.html, between the FEATURED
+     ISSUE </section> and the CLOSING SUBSCRIBE band. Re-add a
+     <hr class="section-rule"> above it if you want the divider back.
+  2. The CSS below is STILL PRESENT in styles.css (under "Recent
+     dispatches") and was left in place — no CSS change needed to restore.
+  3. The "Archive" nav link and footer "Archive" links point to
+     #dispatches (this section's id). While this section is parked those
+     anchors have nothing to scroll to — restoring this section fixes them.
+
+Codes in this section (also in the tracker's parked note):
+  [L0660] [L7861] [L0664] [L0665] [L0667] [L3664] [L3665] [L3666]
+  [L6664] [L6665] [L6667] [L0670] [L0671] [L0673] [L3670] [L3671]
+  [L3672] [L6670] [L6671] [L6672]
+========================================================================
+
+
+---------------------------- HTML (index.html) -------------------------
+
+    <!-- ===================== RECENT DISPATCHES ===================== -->
+    <section class="dispatches" id="dispatches" aria-labelledby="dispatches-title">
+      <div class="wrap">
+        <div class="dispatches__head">
+          <!-- data-ref [L0660] -->
+          <h2 class="dispatches__title" id="dispatches-title" data-ref="[L0660]">Recent dispatches</h2>
+          <!-- data-ref [L7861] -->
+          <a class="dispatches__more" href="#dispatches" data-ref="[L7861]">Browse the archive →</a>
+        </div>
+
+        <div class="dispatch-grid">
+          <article class="dispatch">
+            <!-- data-ref [L0664] --><p class="eyebrow dispatch__kicker is-orange" data-ref="[L0664]">Grid</p>
+            <!-- data-ref [L0665] --><h3 class="dispatch__title" data-ref="[L0665]"><a href="#dispatches">The pylon that got a paint job and a fan club</a></h3>
+            <!-- data-ref [L0667] --><p class="dispatch__meta" data-ref="[L0667]">Aug 24 · 6 min</p>
+          </article>
+          <article class="dispatch">
+            <!-- data-ref [L3664] --><p class="eyebrow dispatch__kicker is-blue" data-ref="[L3664]">Water</p>
+            <!-- data-ref [L3665] --><h3 class="dispatch__title" data-ref="[L3665]"><a href="#dispatches">In defence of the visible drainpipe</a></h3>
+            <!-- data-ref [L3666] --><p class="dispatch__meta" data-ref="[L3666]">Aug 10 · 7 min</p>
+          </article>
+          <article class="dispatch">
+            <!-- data-ref [L6664] --><p class="eyebrow dispatch__kicker is-blue" data-ref="[L6664]">Transit</p>
+            <!-- data-ref [L6665] --><h3 class="dispatch__title" data-ref="[L6665]"><a href="#dispatches">A ventilation shaft with a sense of occasion</a></h3>
+            <!-- data-ref [L6667] --><p class="dispatch__meta" data-ref="[L6667]">Jul 27 · 9 min</p>
+          </article>
+          <article class="dispatch">
+            <!-- data-ref [L0670] --><p class="eyebrow dispatch__kicker is-orange" data-ref="[L0670]">Data</p>
+            <!-- data-ref [L0671] --><h3 class="dispatch__title" data-ref="[L0671]"><a href="#dispatches">Server halls are the new industrial sublime</a></h3>
+            <!-- data-ref [L0673] --><p class="dispatch__meta" data-ref="[L0673]">Jul 13 · 8 min</p>
+          </article>
+          <article class="dispatch">
+            <!-- data-ref [L3670] --><p class="eyebrow dispatch__kicker is-blue" data-ref="[L3670]">Roads</p>
+            <!-- data-ref [L3671] --><h3 class="dispatch__title" data-ref="[L3671]"><a href="#dispatches">The gantry as public sculpture</a></h3>
+            <!-- data-ref [L3672] --><p class="dispatch__meta" data-ref="[L3672]">Jun 29 · 5 min</p>
+          </article>
+          <article class="dispatch">
+            <!-- data-ref [L6670] --><p class="eyebrow dispatch__kicker is-orange" data-ref="[L6670]">Field notes</p>
+            <!-- data-ref [L6671] --><h3 class="dispatch__title" data-ref="[L6671]"><a href="#dispatches">Reading a city by its manhole covers</a></h3>
+            <!-- data-ref [L6672] --><p class="dispatch__meta" data-ref="[L6672]">Jun 15 · 6 min</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+---------------------------- CSS (styles.css) --------------------------
+(left in place in styles.css; included here for completeness)
+
+/* ---- Recent dispatches ------------------------------------ */
+.dispatches__head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: 1rem; flex-wrap: wrap;
+  padding-bottom: 1rem; border-bottom: 1px solid var(--ink);
+  margin-bottom: 2rem;
+}
+.dispatches__title { font-weight: 700; font-size: clamp(1.7rem, 3vw, 2.3rem); }
+.dispatches__more {
+  font-family: var(--sans); font-size: .78rem; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase;
+  color: var(--blue); text-decoration: none;
+}
+.dispatches__more:hover { text-decoration: underline; }
+.dispatch-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.4rem, 3vw, 2.4rem) clamp(1.6rem, 3.5vw, 3rem);
+}
+.dispatch { border-top: 1px solid var(--ink); padding-top: 1rem; }
+.dispatch__kicker { margin-bottom: .7rem; }
+.dispatch__kicker.is-orange { color: var(--orange-deep); }
+.dispatch__kicker.is-blue   { color: var(--blue); }
+.dispatch__title {
+  font-weight: 700; font-size: 1.3rem; line-height: 1.14; margin-bottom: .8rem;
+}
+.dispatch__title a { text-decoration: none; }
+.dispatch__title a:hover { text-decoration: underline; }
+.dispatch__meta { font-family: var(--sans); font-size: .76rem; color: var(--meta); letter-spacing: .03em; }
+
+/* Responsive (in the media queries near the end of styles.css): */
+@media (max-width: 900px) { .dispatch-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .dispatch-grid { grid-template-columns: 1fr; } }
+========================================================================
