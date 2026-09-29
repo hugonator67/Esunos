@@ -216,6 +216,22 @@ main > section { padding-block: clamp(3rem, 7vw, 5.5rem); }
   display: flex; align-items: flex-end;
   padding: 1rem 1.2rem;
 }
+/* When a real photo is dropped in, let the image define the box and drop
+   the caption below it — otherwise the flex row lays image and caption
+   side by side and the fixed aspect-ratio distorts both. */
+.figure:has(img) {
+  aspect-ratio: auto;
+  display: block;
+  padding: 0;
+}
+.figure > img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+.figure--bleed > img { aspect-ratio: 16 / 9; }
+.figure--inline > img { aspect-ratio: 3 / 2; }
+.figure:has(img) .figure__caption { padding: .8rem 1.2rem; }
 .figure__caption {
   font-family: var(--sans); font-size: .72rem; font-weight: 700;
   letter-spacing: .1em; text-transform: uppercase; color: var(--meta);
